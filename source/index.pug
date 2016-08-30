@@ -1,0 +1,25 @@
+doctype
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    title Hello World
+  body
+
+    h1 Hello World
+
+    h2 Posts
+
+    ul
+
+      each post in posts
+
+        li!= post.title
+
+    h2 Pages
+
+    ul
+
+      each page in pages
+
+        li!= page.title

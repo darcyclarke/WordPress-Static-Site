@@ -1,0 +1,26 @@
+{
+  "name": "wordpress-static-site",
+  "version": "1.0.0",
+  "description": "Simple Static Site Generation from WordPress API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darcyclarke/WordPress-Static-Site.git"
+  },
+  "author": "Darcy Clarke <darcy@darcyclarke.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darcyclarke/WordPress-Static-Site/issues"
+  },
+  "homepage": "https://github.com/darcyclarke/WordPress-Static-Site#readme",
+  "devDependencies": {
+    "async-waterfall": "0.1.5",
+    "gulp": "3.9.1",
+    "gulp-clean": "0.3.2",
+    "gulp-pug": "3.0.4",
+    "request": "2.74.0"
+  }
+}
